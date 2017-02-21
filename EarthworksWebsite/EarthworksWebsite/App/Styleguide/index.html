@@ -1,0 +1,53 @@
+﻿    <!DOCTYPE html>
+    <html lang="en-gb">
+    <head>
+        <title>Barebones - An initial directory setup, style guide and pattern primer</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="_css/styles.css" type="text/css"/>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+        
+
+    
+    </head>
+    <body>
+        <header role="banner">
+            <div class="container">
+                <p class="title">The Earthworks</p>
+                <h1 class="headline">Styleguide</h1>
+                <p class="lede">A basic guide to semantic markup, including proper usage examples</p>
+            </div><!--/container-->
+        </header><!--/@banner-->
+        <main role="main">
+            <div class="container">
+                <div id="nav">
+                    <ul>
+                        <li><a href="#" id="overview" class="active">Overview</a></li>
+                        <li><a href="#">Typography</a></li>
+                        <li><a href="#" id="forms">Forms</a></li>
+                        <li><a href="#">Buttons</a></li>
+                    </ul>
+                </div>
+
+                <div id="content">
+                    <!-- Content Here is coming Via AJAX - Overview data is loaded by default below -->
+                    <p class="lead">
+                        Welcome to The Earthworks Web Design Standards!
+                        Here, you'll find UI components and visual styles to create consistent experiences across company websites.
+                    </p>
+                </div>
+            </div>
+
+       
+        </main><!--@main-->
+        <footer role="contentinfo">
+            <div class="container">
+                <p><small>Copyright &#169; 2017 <a href="http://the-earthworks.com">The Earthworks</a>.</small></p>
+            </div><!--/container-->
+        </footer><!--/@contentinfo-->
+        
+        <script src="/App/js/modules/includeTemplate.js"></script>
+        <script src="/App/js/modules/partialTemplate.js"></script>
+    </body>
+    </html>
